@@ -1,7 +1,7 @@
 {
-               "name": "suhail-md",
+               "name": "DILSHAN-md",
                "version": "1.2.2",
-               "description": "Multi device whatsapp bot by SuhailTechInfo.",
+               "description": "Multi device whatsapp bot by DILSHANTechInfo.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
@@ -73,10 +73,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/SuhailTechInfo/Suhail-Md.git"
+                 "url": "git+https://github.com/Maduradilshan/DILSHAN-MD/tree/main"
                   },
                  "bugs": {
-                 "url": "https://github.com/SuhailTechInfo/Suhail-Md/issues"
+                 "url": "https://github.com/Maduradilshan/DILSHAN-MD/tree/main"
                   },
-                 "homepage": "https://github.com/SuhailTechInfo/Suhail-Md#readme"
+                 "homepage": "https://github.com/Maduradilshan/DILSHAN-MD/tree/main"
                   }
