@@ -1,21 +1,4 @@
 /**
-//══════════════════════════════════════════════════════════════════════════════════════════════════════//
-//                                                                                                      //
-//                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
-//                                                                                                      // 
-//                                         Ｖ：１．０．１                                                // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
-//                                                                                                      //
-//                                                                                                      //
-//                                                                                                      //
-//══════════════════════════════════════════════════════════════════════════════════════════════════════//
-
 CURRENTLY RUNNING ON BETA VERSION!!
 *
    * @project_name : Suhail-Md
@@ -386,9 +369,9 @@ smd({pattern: "gitclone",desc: "Downloads apks  .",category: "downloader",filena
 	})
   const ytIdRegex =	/(?:http(?:s|):\/\/|)(?:(?:www\.|)youtube(?:\-nocookie|)\.com\/(?:watch\?.*(?:|\&)v=|embed|shorts\/|v\/)|youtu\.be\/)([-_0-9A-Za-z]{11})/
   //---------------------------------------------------------------------------
-smd({pattern: "tts",desc: "text to speech.",category: "downloader",filename: __filename,use: '<Hii,this is Suhail>',},
+smd({pattern: "tts",desc: "text to speech.",category: "downloader",filename: __filename,use: '<Hii,this is Dilshan>',},
         async(Suhail, citel, text) => {
-            if (!text && !citel.quoted) return citel.reply(`*Please give me Text*\n *_Example : .tts Hi,I am Suhail Tech._*`);
+            if (!text && !citel.quoted) return citel.reply(`*Please give me Text*\n *_Example : .tts Hi,I am Dilshan Tech._*`);
             if (!text) { text=citel.quoted.text;  }
             let texttts = text
             const ttsurl = googleTTS.getAudioUrl(texttts, {lang: "en", slow: false, host: "https://translate.google.com", });
@@ -654,7 +637,7 @@ async(Suhail, citel, text) => {
             let infoYt = await ytdl.getInfo(vid[0]);
             if(infoYt.videoDetails.lengthSeconds >= videotime) return citel.reply(`*_Can't dowanload, video file too big_*`);
             titleYt = infoYt.videoDetails.title;
-            let randomName = `./temp/Suhail-Md ${vid[1]}.mp3`;
+            let randomName = `./temp/Dilshan-Md ${vid[1]}.mp3`;
             const stream = ytdl(urlYt, {  filter: (info) => info.audioBitrate == 160 || info.audioBitrate == 128,  }).pipe(fs.createWriteStream(randomName));
           file = randomName
             await new Promise((resolve, reject) => {   stream.on("error", reject); stream.on("finish", resolve);    });
@@ -682,9 +665,9 @@ async(Suhail, citel, text) => {
 
 
 
-// By @SuhailTechInfo
-// https://wa.me/923184474176
-// https://www.youtube.com/@suhailtechinfo0
+// By @VajiraTechInfo
+// https://wa.me/94773277849
+// https://youtube.com/@gamingewingyt6216
 
 
 
