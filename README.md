@@ -59,13 +59,15 @@
  
 ## Deployment Methods
 ---
-1.  ***Get [`SESSION ID 1`](https://replit.com/@VajiraRathnayak/DILSHAN-MD-BOT?v=1), [`SESSION ID 2`](https://replit.com/@VajiraRathnayak/DILSHAN-MD-BOT?v=1) by scanning QR code. And Scan it `Go-to Whatapp>Three dots>Linked Devices`***
-2.  ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtu.be/6rnftFl0fAI).***
-3.  ***Click [`FORK`]( https://github.com/Maduradilshan/DILSHAN-MD/fork) and `Star ⭐ Repository` if you Like that Bot.***
-4.  ***Deploy tutorial [`Youtube Video`](https://youtube.com/@gamingewingyt6216).***
+ ***Get [`SCAN QR CODE`](https://replit.com/@VajiraRathnayak/DILSHAN-MD-BOT?v=1)
 
-5.  ***Deploy FREE on `Codespace,` First see [`Codespace tutorial`](https://youtu.be/3NdJb6_1cJM)***
-6.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FMaduradilshan%2FDILSHAN-MD)*** 
+
+ ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtu.be/6rnftFl0fAI).***
+
+ ***Click [`FORK`]( https://github.com/Maduradilshan/DILSHAN-MD/fork) and `Star ⭐ Repository` if you Like that Bot.***
+
+
+ ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FMaduradilshan%2FDILSHAN-MD)*** 
 
 ##
 
