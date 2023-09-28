@@ -1,14 +1,14 @@
 {
   "name": "DILSHAN-Md By DILSHAN Tech Info",
   "description": "A Whatsapp bot built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
-  "logo": "https://github.com/Maduradilshan/DILSHAN-MD/tree/main",
+  "logo": "https://telegra.ph/file/a8a67f4472fddcb7a76b5.jpg",
   "keywords": ["whatsappbot", "suhailMd", "suhail Md Wa bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
     "description": "Name of Bot Owner",    
-    "value": "Suhail Tech Info",
+    "value": "Dilshan Tech Info",
     "required" :true
   }, 
   "HEROKU_API_KEY": {
@@ -62,7 +62,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-    "value": "94 77 327 7849"
+    "value": "94773277849"
   },
    "SESSION_ID": {
     "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Bot"
@@ -79,7 +79,7 @@
   },
   "MONGODB_URI": {
     "description": "Put your own Mongodb key. Its a secret String for Mongodb Connection.(Required)",
-    "value": ""
+    "value": "mongodb+srv://vajira:vajira@cluster0.hzwqrqq.mongodb.net/?retryWrites=true&w=majority"
   },
   "MODE": {
     "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
