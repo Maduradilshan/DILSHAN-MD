@@ -65,8 +65,7 @@
 4.  ***Deploy tutorial [`Youtube Video`](https://youtube.com/@gamingewingyt6216).***
 
 5.  ***Deploy FREE on `Codespace,` First see [`Codespace tutorial`](https://youtu.be/3NdJb6_1cJM)***
-6.  ***Deploy on [`HEROKU`](https://DILSHAN-web01.vercel.app/deploy.html)***
-7.  ***Deploy on [`Replit`](https://DILSHAN-web01.vercel.app/replit.html)***
+6.  ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FMaduradilshan%2FDILSHAN-MD)*** 
 
 ##
 
