@@ -40,7 +40,7 @@ const { Sticker, createSticker, StickerTypes } = require("wa-sticker-formatter")
 const axios = require('axios')
 const fetch = require("node-fetch");
 const util = require("util");
-const events = sᴜʜᴀɪʟ_ᴍᴅ;
+const events = ᴅɪʟꜱʜᴀɴ_ᴍᴅ;
  const speed = require('performance-now')
 
 
