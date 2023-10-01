@@ -45,7 +45,7 @@
       port = 5000
       email = "sam@secktor.live"
       global_url = "instagram.com"
-      OWNER_NAME = "SamPandey001"
+      OWNER_NAME = "Maduradilshan"
       AUTO_REACTION = false
       FAKE_COUNTRY_CODE = 92
       READ_MESSAGE = false
