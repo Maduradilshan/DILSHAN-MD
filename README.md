@@ -30,11 +30,18 @@
 </p>
 
 --- 
- 
+
+ ## SCAN QR CODE
+[![Scan QR CODE 1](https://i.imgur.com/ouR5zv8.jpg)](https://replit.com/@VajiraRathnayak/DILSHAN-MD-BOT?v=1)
+
  
 
+## 𝘿𝙀𝙋𝙇𝙊𝙔𝙈𝙀𝙉𝙏 𝙈𝙀𝙏𝙃𝙊𝘿𝙎
 
    
+ [![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Maduradilshan/DILSHAN-MD)
+
+[![Deploy on Replit](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/github.com/Maduradilshan/DILSHAN-MD)
  
  
 
