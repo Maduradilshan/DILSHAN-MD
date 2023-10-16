@@ -1,5 +1,7 @@
  <h1 align="center"> DILSHAN Md </h1> 
-<p align="center"> Introducing DILSHAN_Md, It is designed to bring a whole new level of excitement to your boring WhatsApp use. </p>
+<WhatsApp use. </p>
+
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FFE400&lines=HELLO+IM+KING+DILSHAN-MD+WHATSAPP+BOT)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://youtube.com/@gamingewingyt6216">
@@ -49,41 +51,13 @@
 6.  ***Capital of city.***
 ##
 
- 
-
-
-
-
-
-  
- 
-## Deployment Methods
----
- ***Get [`SCAN QR CODE`](https://replit.com/@VajiraRathnayak/DILSHAN-MD-BOT?v=1)
-
-
- ***Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtu.be/6rnftFl0fAI).***
-
- ***Click [`FORK`]( https://github.com/Maduradilshan/DILSHAN-MD/fork) and `Star ⭐ Repository` if you Like that Bot.***
-
-
- ***Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FMaduradilshan%2FDILSHAN-MD)*** 
-
-##
-
-
-***Use this Public MongoDb Key, If you dont have.!***
-```
-mongodb+srv://Suhail_Md:Suhail_Md@cluster1.0tlyzhm.mongodb.net/?retryWrites=true&w=majority
-```
----
 
 - Star ⭐ repo if you like this bot.
 
 
 
 ### Thanks To
-- [Sam Pamday](https://github.com/Sampandey001) 
+- [Sam Pamday](https://github.com/Theekshanamax ) 
 
 
 The Suhail_Md is made available under the [GPL-3 license](https://github.com/Maduradilshan/DILSHAN-MD/blob/main/LICENCE).
