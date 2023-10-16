@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://youtube.com/@gamingewingyt6216">
-    <img alt="DILSHAN docs" height="300" src="https://telegra.ph/file/a8a67f4472fddcb7a76b5.jpg">
+    <img alt="DILSHAN docs" height="300" src="https://telegra.ph/file/ee94f45fbc7eefb83f65f.jpg">
   </a>
 </p>
    
