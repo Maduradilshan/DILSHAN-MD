@@ -21,14 +21,11 @@
     <img alt="DILSHANTechInfo Yt" src="https://img.shields.io/youtube/channel/subscribers/UCU071AMRqcd5mfTdCgJFwPg" target="_blank" />
   </a>
 
-</p>
-<p align="center"><img src="https://profile-counter.glitch.me/{DILSHANTechInfo}/count.svg" alt="DILSHANTechInfo :: Visitor's Count" /></p>
-<p align="center">
- <a href="https://chat.whatsapp.com/BvNbfgOzzo77urGqoNjThk" target="_blank">
-    <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Group -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-</p>
 
+## SOCIAL MEDIA
+[![Youtube](https://telegra.ph/file/eebe86c26e98ffeae39ea.jpg)](https://youtube.com/@gamingewingyt6216) [![FaceBook](https://telegra.ph/file/7d9dcbcad846a646f09f0.jpg)](https://www.facebook.com/profile.php?id=100095208556360&mibextid=ZbWKwL.php?id=100078146263566&mibextid=ZbWKwL) [![Whatsapp group](https://telegra.ph/file/99460844d012cad1b7ee4.jpg)](https://chat.whatsapp.com/DcCv0zXT8qA5S4YPKcSrzT)
+
+ 
 --- 
 
  ## SCAN QR CODE
