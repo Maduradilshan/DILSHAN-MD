@@ -1,7 +1,7 @@
  <h1 align="center"> DILSHAN Md </h1> 
 <WhatsApp use. </p>
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FFE400&lines=HELLO+IM+KING+DILSHAN-MD+WHATSAPP+BOT)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=50FF16&lines=HELLO+IM+KING+DILSHAN-MD+WHATSAPP+BOT)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://youtube.com/@gamingewingyt6216">
@@ -57,7 +57,7 @@
 
 
 ### Thanks To
-- [Sam Pamday](https://github.com/Theekshanamax ) 
+- [Theekshanamax ](https://github.com/Theekshanamax ) 
 
 
 The Suhail_Md is made available under the [GPL-3 license](https://github.com/Maduradilshan/DILSHAN-MD/blob/main/LICENCE).
