@@ -21,6 +21,7 @@
     <img alt="DILSHANTechInfo Yt" src="https://img.shields.io/youtube/channel/subscribers/UCU071AMRqcd5mfTdCgJFwPg" target="_blank" />
   </a>
 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=F33A6A&lines=𝗪𝗘𝗟𝗟𝗖𝗢𝗠+𝐓𝐨+𝗗𝗜𝗟𝗦𝗛𝗔𝗡𝗔-𝗠𝗗+𝗕𝗢𝗧.;𝙿𝙾𝚆𝙴𝚁𝙳+𝙱𝚈:+𝙲𝚈𝙱𝙴𝚁+𝙳𝙴𝚇𝙸𝚃𝙷𝙴𝙼;ℂ𝕣𝕖𝕒𝕥𝕖𝕕+𝕓𝕪:+𝔻𝕀𝕃𝕊ℍ𝔸ℕ;😘එයිමෙ+සුපිරි+යට+බොට්+හදන්න+ඕන💖;😁උදව්වක්+ඕන+නම්+කියන්න🍁)](https://git.io/typing-svg)
 
 ## SOCIAL MEDIA
 [![Youtube](https://telegra.ph/file/eebe86c26e98ffeae39ea.jpg)](https://youtube.com/@gamingewingyt6216) [![FaceBook](https://telegra.ph/file/7d9dcbcad846a646f09f0.jpg)](https://www.facebook.com/profile.php?id=100095208556360&mibextid=ZbWKwL.php?id=100078146263566&mibextid=ZbWKwL) [![Whatsapp group](https://telegra.ph/file/99460844d012cad1b7ee4.jpg)](https://chat.whatsapp.com/DcCv0zXT8qA5S4YPKcSrzT)
