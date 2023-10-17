@@ -1,4 +1,4 @@
- <h1 align="center"> 😈DILSHAN Md😈 </h1> 
+ <h1 align="center"> 😈DILSHAN Md BOT😈 </h1> 
 <WhatsApp use. </p>
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=50FF16&lines=HELLO+IM+KING+DILSHAN-MD+WHATSAPP+BOT)](https://git.io/typing-svg)
