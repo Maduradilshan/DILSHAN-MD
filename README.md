@@ -68,6 +68,6 @@
 -  
 
 
-The Suhail_Md is made available under the [GPL-3 license](https://github.com/Maduradilshan/DILSHAN-MD/blob/main/LICENCE).
+The DILSHAN_Md is made available under the [GPL-3 license](https://github.com/Maduradilshan/DILSHAN-MD/blob/main/LICENCE).
 
 ##Deploy on [`heroku`]( https://dashboard.heroku.com/new?template=https://github.com/DILSHANTechInfo/DILSHAN-Md)
