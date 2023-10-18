@@ -67,7 +67,8 @@
 - ☘️SACHIYA☘️
 - ☘️PASIYA☘️
   
-  
+##  OWNER 
+[![DILSHAN](https://telegra.ph/file/24bab346ade229ea94f24.jpg?size=20)](https://github.com)
   
 
 
