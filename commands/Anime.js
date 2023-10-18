@@ -5,12 +5,7 @@
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                // 
 //                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
+//                                                                                                      //
 //                                                                                                      //
 //                                                                                                      //
 //                                                                                                      //
@@ -18,16 +13,16 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : DILSHAN -Md
+   * @author : DILSHAN  Tech Info
+   * @youtube : https://www.youtube.com/c/@DILSHANTechInfo0
+   * @description : DILSHAN -Md ,A Multi-functional whatsapp user bot.
    * @version 1.2.2
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By DILSHAN Tech Info.
+   * © 2023 DILSHAN-Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -65,31 +60,31 @@ function _0x232f(){const _0x59aa77=['Naruto','\x0a*More\x20on✨:*\x20','map','1
 //-----------------------------------------------------------------------
 
 //-----------------------------------------------------------------------
-smd({pattern: "waifu",desc: "To get Waifu Random Pics",category: "Anime Pics",filename: __filename },async(Suhail, msg, text , {cmdName}) => { console.log("Cmd : " , cmdName);   return await sendAnime(Suhail,msg ,'waifu' , text);});
+smd({pattern: "waifu",desc: "To get Waifu Random Pics",category: "Anime Pics",filename: __filename },async(DILSHAN , msg, text , {cmdName}) => { console.log("Cmd : " , cmdName);   return await sendAnime(DILSHAN ,msg ,'waifu' , text);});
 //-----------------------------------------------------------------------
-smd({pattern: "neko", category: "Anime Pics",desc: "Sends a Neko Image in chat",filename: __filename },async(Suhail, msg, text , {cmdName}) => { return await sendAnime(Suhail,msg ,'neko' , text);});
+smd({pattern: "neko", category: "Anime Pics",desc: "Sends a Neko Image in chat",filename: __filename },async(DILSHAN , msg, text , {cmdName}) => { return await sendAnime(DILSHAN ,msg ,'neko' , text);});
 //-----------------------------------------------------------------------
-smd({ pattern: "megumin",desc: "To get Waifu Random Pics",category: "Anime Pics",filename: __filename },async(Suhail, msg, text , {cmdName}) => { return await sendAnime(Suhail,msg ,'megumin' , text);});
+smd({ pattern: "megumin",desc: "To get Waifu Random Pics",category: "Anime Pics",filename: __filename },async(DILSHAN , msg, text , {cmdName}) => { return await sendAnime(DILSHAN,msg ,'megumin' , text);});
 //-----------------------------------------------------------------------
-smd({ pattern: "loli",category: "Anime Pics",filename: __filename,desc: "Sends image of loli."},async(Suhail, msg) => {  return await sendAnime(Suhail,msg ,'loli',);});
+smd({ pattern: "loli",category: "Anime Pics",filename: __filename,desc: "Sends image of loli."},async(DILSHAN , msg) => {  return await sendAnime(DILSHAN ,msg ,'loli',);});
 //-----------------------------------------------------------------------
-smd({pattern: "foxgirl",category: "Anime Pics",desc: "Sends image of Fox Girl Anime.", filename: __filename},async(Suhail, msg) => {  return await sendAnime(Suhail,msg ,'foxgirl',); });
+smd({pattern: "foxgirl",category: "Anime Pics",desc: "Sends image of Fox Girl Anime.", filename: __filename},async(DILSHAN , msg) => {  return await sendAnime(DILSHAN ,msg ,'foxgirl',); });
 //-----------------------------------------------------------------------
-smd({pattern: "demon",alias : ["ds"],desc: "To get Naruto Random Videos",category: "Anime Pics",filename: __filename},async(Suhail, msg) => {  return await sendAnime(Suhail,msg ,'demon',); });
+smd({pattern: "demon",alias : ["ds"],desc: "To get Naruto Random Videos",category: "Anime Pics",filename: __filename},async(DILSHAN , msg) => {  return await sendAnime(DILSHAN ,msg ,'demon',); });
 //------------------------------------------------------------------------
-smd({pattern: "naruto",desc: "To get Naruto Random Videos",category: "Anime Pics",filename: __filename},async(Suhail, msg) => {  return await sendAnime(Suhail,msg ,'naruto',); });
+smd({pattern: "naruto",desc: "To get Naruto Random Videos",category: "Anime Pics",filename: __filename},async(DILSHAN , msg) => {  return await sendAnime(DILSHAN ,msg ,'naruto',); });
 //-------------------------------------------------------------------------
-smd({pattern: "pokepic",category: "Anime Pics",filename: __filename,desc: "Sends image of pokemon."},async(Suhail, msg, text) => { return await sendGImages(msg ,text+"Pokemon Pics only HD ", `*---「 Poke Pic 」---*`, text );});
+smd({pattern: "pokepic",category: "Anime Pics",filename: __filename,desc: "Sends image of pokemon."},async(DILSHAN , msg, text) => { return await sendGImages(msg ,text+"Pokemon Pics only HD ", `*---「 Poke Pic 」---*`, text );});
 //-------------------------------------------------------------------------
-smd({pattern: "animepic",category: "Anime Pics",filename: __filename,desc: "Anime images"},async(Suhail, msg, text) => { return await sendGImages(msg ,text+"Anime Pics HD", `*-----「 Anime Image 」-----*`, text );});
+smd({pattern: "animepic",category: "Anime Pics",filename: __filename,desc: "Anime images"},async(DILSHAN , msg, text) => { return await sendGImages(msg ,text+"Anime Pics HD", `*-----「 Anime Image 」-----*`, text );});
 //-----------------------------------------------------------------------
-smd({ pattern: "animewall",category: "Anime Pics",desc: "Anime Wallpaper Random",filename: __filename},async(Suhail, msg, text) => {return await sendGImages(msg ,text+"anime wallpaper for desktop full hd", `*---「 Anime Wallpaper 」---*` , text );});
+smd({ pattern: "animewall",category: "Anime Pics",desc: "Anime Wallpaper Random",filename: __filename},async(DILSHAN , msg, text) => {return await sendGImages(msg ,text+"anime wallpaper for desktop full hd", `*---「 Anime Wallpaper 」---*` , text );});
 //-----------------------------------------------------------------------
-let qq = ["Anime News Today","New Anime","Uocoming Anime News","New Anime Info","Whats news in Anime","Anime Series","Manga News today","Anime New News","Anime News today",];smd({ pattern: "animenews",category: "Anime Pics", desc: "Sends Anime News in chat",filename: __filename},async(Suhail,msg,text,{cmdName}) => {let q1=qq[Math.floor(Math.random()*qq.length)]+text;return await sendAnime(Suhail,msg,cmdName, q1);});
+let qq = ["Anime News Today","New Anime","Uocoming Anime News","New Anime Info","Whats news in Anime","Anime Series","Manga News today","Anime New News","Anime News today",];smd({ pattern: "animenews",category: "Anime Pics", desc: "Sends Anime News in chat",filename: __filename},async(DILSHAN ,msg,text,{cmdName}) => {let q1=qq[Math.floor(Math.random()*qq.length)]+text;return await sendAnime(DILSHAN ,msg,cmdName, q1);});
 //---------------------------------------------------------------------------
-smd({pattern: "pokemon",category: "Anime Pics", filename: __filename, desc: "Sends info of pokemon in current chat."},async(Suhail, msg, text) => { if(!text) return msg.reply("*Uhh Please Give Me Poki Name/num*");try {let { data } = await axios.get(`https://pokeapi.co/api/v2/pokemon/${text}`);if (!data.name) return msg.reply(`❌ Could not found any pokemon with that name`);let poinfo = `*•Name: ${data.name}*\n*•Pokedex ID: ${data.id}*\n*•Height: ${data.height}*\n*•Weight: ${data.weight}*\n*•Abilities: ${data.abilities[0].ability.name}, ${data.abilities[1].ability.name}*\n*•Base Experience: ${data.base_experience}*\n*•Type: ${data.types[0].type.name}*\n*•Base Stat: ${data.stats[0].base_stat}*\n*•Attack: ${data.stats[1].base_stat}*\n*•Defense: ${data.stats[2].base_stat}*\n*•Special Attack: ${data.stats[3].base_stat}*\n*•Special Defense:${data.stats[4].base_stat}*\n*•Speed: ${data.stats[5].base_stat}*\n`;return await Suhail.bot.sendMessage(msg.chat, { image: { url: data.sprites.front_default }, caption: poinfo }, { quoted: msg });} catch (err) {  msg.reply("*_Ahh,Couldn't found any pokemon._*") }})
+smd({pattern: "pokemon",category: "Anime Pics", filename: __filename, desc: "Sends info of pokemon in current chat."},async(DILSHAN , msg, text) => { if(!text) return msg.reply("*Uhh Please Give Me Poki Name/num*");try {let { data } = await axios.get(`https://pokeapi.co/api/v2/pokemon/${text}`);if (!data.name) return msg.reply(`❌ Could not found any pokemon with that name`);let poinfo = `*•Name: ${data.name}*\n*•Pokedex ID: ${data.id}*\n*•Height: ${data.height}*\n*•Weight: ${data.weight}*\n*•Abilities: ${data.abilities[0].ability.name}, ${data.abilities[1].ability.name}*\n*•Base Experience: ${data.base_experience}*\n*•Type: ${data.types[0].type.name}*\n*•Base Stat: ${data.stats[0].base_stat}*\n*•Attack: ${data.stats[1].base_stat}*\n*•Defense: ${data.stats[2].base_stat}*\n*•Special Attack: ${data.stats[3].base_stat}*\n*•Special Defense:${data.stats[4].base_stat}*\n*•Speed: ${data.stats[5].base_stat}*\n`;return await Suhail.bot.sendMessage(msg.chat, { image: { url: data.sprites.front_default }, caption: poinfo }, { quoted: msg });} catch (err) {  msg.reply("*_Ahh,Couldn't found any pokemon._*") }})
 //---------------------------------------------------------------------------
-
+MD 
 
 
 
@@ -99,7 +94,7 @@ smd({
     filename: __filename,
     desc: "Sends info about asked manga."
 },
-async(Suhail, msg, text) => {
+async(DILSHAN , msg, text) => {
     if (!text) return msg.reply(`Which Manga do you want to Search? \n _Please give me a name._`);
     const { Manga } = require("@shineiichijo/marika");
     const manga = new Manga();
@@ -131,7 +126,7 @@ smd({
     category: "Anime Pics",
     desc: "Searches Info about Anime and Provides result."
 },
-async(Suhail, msg, text) => {
+async(DILSHAN , msg, text) => {
     if (!text) return msg.reply(`Which Anime do you want to search?\n _Please give me a name._`);
     const client = new Anime();
     let anime = await client.searchAnime(text);
@@ -162,7 +157,7 @@ async(Suhail, msg, text) => {
         details += `🎆Background: ${result.background}*\n\n`;
     details += `❄Description: ${result.synopsis}`;
 
- Suhail.bot.sendMessage( msg.chat, { image: {  url: result.images.jpg.large_image_url, }, caption: details, }, { quoted: msg,});
+ DILSHAN .bot.sendMessage( msg.chat, { image: {  url: result.images.jpg.large_image_url, }, caption: details, }, { quoted: msg,});
 }
    )
 //---------------------------------------------------------------------------
