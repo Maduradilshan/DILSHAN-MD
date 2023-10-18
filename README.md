@@ -63,8 +63,8 @@
 
 ## HELPERS 
 - 
-[![VAJIRA](https://telegra.ph/file/b4a50226fcefc967d8cef.jpg?size=80)](https://github.com/vajirabot1) [![theekshana](https://telegra.ph/file/82c37fd5e68c182873bb0.jpg?size=80)](https://github.com/Theekshanamax) | [!     
-[ SACHIYA](https://telegra.ph/file/31111939f51d3a907eeab.jpg?size=80)](https://github.com) 
+[![VAJIRA](https://telegra.ph/file/b4a50226fcefc967d8cef.jpg?size=20)](https://github.com/vajirabot1) [![theekshana](https://telegra.ph/file/82c37fd5e68c182873bb0.jpg?size=20)](https://github.com/Theekshanamax) | [!     
+[ SACHIYA](https://telegra.ph/file/31111939f51d3a907eeab.jpg?size=20)](https://github.com) 
 ----|----|----|----|----
 [VAJIRA](https://wa.me/94766943622) | [theekshana](https://wa.me/+94719892396) | 
 [ SACHIYA](https://wa.me/94767233346)
