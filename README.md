@@ -62,9 +62,9 @@
 
 
 ## HELPERS 
--  [https://telegra.ph/file/b4a50226fcefc967d8cef.jpg?size180]
--  [https://telegra.ph/file/82c37fd5e68c182873bb0.jpg?size180]
--  [https://telegra.ph/file/ec725ec318bde3d2b9b6c.jpg?size180]
+-  https://telegra.ph/file/b4a50226fcefc967d8cef.jpg?size=80)](https://github.com/vajirabot1
+-  
+-  
 -  
 
 
