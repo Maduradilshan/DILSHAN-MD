@@ -68,9 +68,9 @@
 - ☘️PASIYA☘️
   
 ##  OWNER👨‍💻
-[![DILSHAN](https://telegra.ph/file/24bab346ade229ea94f24.jpg?size=20)](https://github.com)
-                  👨‍💻MADURA DILSHAN👨‍💻
 
+👨‍💻MADURA DILSHAN👨‍💻
+    
 
 The DILSHAN_Md is made available under the [GPL-3 license](https://github.com/Maduradilshan/DILSHAN-MD/blob/main/LICENCE).
 
