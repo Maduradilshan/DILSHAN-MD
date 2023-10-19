@@ -4,30 +4,23 @@
 //                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
-//                                                                                                      //
+//                                                                                                       //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : DILSHAN-Md
+   * @author : DILSHAN Tech Info
+   * @youtube : https://www.youtube.com/c/@DILSHANTechInfo0
+   * @description : DILSHAN-Md ,A Multi-functional whatsapp user bot.
    * @version 1.2.2
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By DILSHAN Tech Info.
+   * © 2023 DILSHAN-Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -53,7 +46,7 @@ const fetch = require('node-fetch');
 
 //---------------------------------------------------------------------------
 smd({pattern: "sticker",alias: ["s"], desc: "Makes sticker of replied image/video.",category: "sticker", filename: __filename, use: '<reply to any image/video.>' },
-         async(Suhail, msg,) => {
+         async(DILSHAN, msg,) => {
           let mime = msg.mtype;
           let media ;
           if (mime =="imageMessage" || mime =="videoMessage") {  media = await msg.download(); }
@@ -63,66 +56,66 @@ smd({pattern: "sticker",alias: ["s"], desc: "Makes sticker of replied image/vide
             else return msg.reply("*Uhh Dear, Reply to image/video*")
           }else return msg.reply("*Uhh Dear, Reply to image/video*");
           let options={pack: Config.packname,author: Config.author,type: StickerTypes.FULL,quality: 20, }
-          return await generateSticker(Suhail, msg, 'sticker', media, options ) , media = false; 
+          return await generateSticker(DILSHAN, msg, 'sticker', media, options ) , media = false; 
            
 })
   //---------------------------------------------------------------------------
 
      //---------------------------------------------------------------------------
  smd({pattern: "take", desc: "Makes sticker of replied image/video.", category: "sticker", filename: __filename},
-         async(Suhail, msg, text) => {
+         async(DILSHAN, msg, text) => {
              if (!msg.quoted) return msg.reply("*Uhh Dear, Reply to sticker*");
              let mime = msg.quoted.mtype
              if ( mime !="stickerMessage") return await msg.reply("*Uhh Please, Reply to sticker*") 
              var pack; var author;
-             if (text) {let anu = text.split("|");pack = anu[0] !== "" ? anu[0] : msg.pushName; author = anu[1] && anu[1]!==""? anu[1] : 'Suhail.bot-Md ♥️'; } 
-              else { pack = msg.pushName;  author = 'Suhail.bot-Md ♥️'  }
+             if (text) {let anu = text.split("|");pack = anu[0] !== "" ? anu[0] : msg.pushName; author = anu[1] && anu[1]!==""? anu[1] : 'DILSHAN.bot-Md ♥️'; } 
+              else { pack = msg.pushName;  author = 'DILSHAN.bot-Md ♥️'  }
               let media = await msg.quoted.download();
 
            let options={pack: pack,author: author,type: StickerTypes.FULL,quality: 75, }
-           return await generateSticker(Suhail, msg, 'take', media, options ) , media = false;
+           return await generateSticker(DILSHAN, msg, 'take', media, options ) , media = false;
 });
   //---------------------------------------------------------------------------
  smd({pattern: "attp",desc: "Makes sticker of given text.",category: "sticker",filename: __filename,use: '<text>'},
-  async(Suhail, msg, text , {smdName}) => {
+  async(DILSHAN, msg, text , {smdName}) => {
  if(!text) return msg.reply("*Please provide text to generate sticker*")
 let media  = await getBuffer(`https://raganork-api.onrender.com/api/attp?text=${text}&apikey=with_love_souravkl11`);
-return await generateSticker(Suhail, msg, smdName, media, );
+return await generateSticker(DILSHAN, msg, smdName, media, );
   })
      //---------------------------------------------------------------------------
 
  smd({pattern: "crop",alias: ["cropsticker"], desc: "Makes sticker of replied image.", category: "sticker",filename: __filename,use: '<reply image>'},
-         async(Suhail, msg,) => {
+         async(DILSHAN, msg,) => {
              if (!msg.quoted) return msg.reply("*Uhh Dear, Reply to an image*");
              let mime = msg.quoted.mtype;
              if (mime =="imageMessage"  || mime =="stickerMessage") {
               let media = await msg.quoted.download();
                let options={pack: Config.packname,author: Config.author,type: StickerTypes.CROPPED,quality: 75, }
-              return await generateSticker(Suhail, msg, 'crop', media, options ) , media = false;               
+              return await generateSticker(DILSHAN, msg, 'crop', media, options ) , media = false;               
              }else return msg.reply("*Uhh please, Reply to an image*");
  
          }
      )
     //---------------------------------------------------------------------------
  smd({ pattern: "circle", alias: ["circlestic","circlesticker","cs"], desc: "circle sticker of image.",category: "sticker",filename: __filename, use: '<repl image.>'},
-         async(Suhail, msg,) => {
+         async(DILSHAN, msg,) => {
              if (!msg.quoted) return msg.reply("*Uhh dear, Reply to an image*");
              let mime = msg.quoted.mtype
             if (mime =="imageMessage" || mime =="stickerMessage") {
               let media = await msg.quoted.download();
               let options={pack: Config.packname,author: Config.author,type: StickerTypes.CIRCLE,quality: 75, }
-              return await generateSticker(Suhail, msg, 'circle', media, options ) , media = false;
+              return await generateSticker(DILSHAN, msg, 'circle', media, options ) , media = false;
             }else return msg.reply("*Uhh please, Reply to an image*");
          })
  //---------------------------------------------------------------------------
 smd({pattern: "round", alias: ["roundstic","roundsticker"], desc: "Makes sticker of replied image/video.",category: "sticker", filename: __filename,use: '<reply to any image/video.>' },
-         async(Suhail, msg,) => {
+         async(DILSHAN, msg,) => {
             if (!msg.quoted) return msg.reply("*Uhh dear, Reply to an image*");
             let mime = msg.quoted.mtype
             if (mime =="imageMessage" || mime =="stickerMessage") {
               let media = await msg.quoted.download();              
               let options={pack: Config.packname,author: Config.author,type: StickerTypes.ROUNDED,quality: 75, }
-              return await generateSticker(Suhail, msg, 'circle', media, options ) , media = false;
+              return await generateSticker(DILSHAN, msg, 'circle', media, options ) , media = false;
             }else return msg.reply("*Uhh please, Reply to an image*");
 })
 
@@ -143,7 +136,7 @@ smd({
         filename: __filename
     },
 
-    async(Suhail, msg, text) => {
+    async(DILSHAN, msg, text) => {
 
 
 const response = await fetch('https://api.unsplash.com/photos/random?client_id=72utkjatCBC-PDcx7-Kcvgod7-QOFAm2fXwEeW8b8cc');
@@ -156,7 +149,7 @@ const data = await response.json();
                     headerType: 4,
                    
                 };
-                return await Suhail.bot.sendMessage(msg.chat, buttonMessaged , {quoted : msg});
+                return await DILSHAN.bot.sendMessage(msg.chat, buttonMessaged , {quoted : msg});
 
 
 }
@@ -170,16 +163,16 @@ smd({
             pattern: "fancy",
             desc: "Makes stylish/fancy given text",
             category: "converter",
-            use: '56 Suhail',
+            use: '56 DILSHAN',
            // react: "✅",
             filename: __filename
         },
-        async(Suhail, msg, text) => {
+        async(DILSHAN, msg, text) => {
             if (isNaN(text.split(" ")[0]) || !text) {
                 let text = tiny(
-                    "Fancy text generator\n\n*_______________________________*\n*Example: .fancy 32 Suhail Md*\n*_______________________________*\n\n"
+                    "Fancy text generator\n\n*_______________________________*\n*Example: .fancy 32 DILSHAN Md*\n*_______________________________*\n\n"
                 );
-                listall("Suhail").forEach((txt, num) => {
+                listall("DILSHAN").forEach((txt, num) => {
                     text += `${(num += 1)} ${txt}\n`;
                 });
                 return await msg.reply(text);
