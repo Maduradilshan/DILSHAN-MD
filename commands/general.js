@@ -5,30 +5,23 @@
 //                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
-//                                                                                                      //
+////
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : DILSHAN-Md
+   * @author : DILSHAN Tech Info
+   * @youtube : https://www.youtube.com/c/@DILSHANTechInfo
+   * @description : DILSHAN-Md ,A Multi-functional whatsapp user bot.
    * @version 1.2.2
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Suhail Tech Info.
-   * © 2023 Suhail-Md ✭ ⛥.
+   * ┌┤Created By DILSHAN Tech Info.
+   * © 2023 DILSHAN-Md ✭ ⛥.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -58,19 +51,19 @@ function _0x2a0d(_0xb8a708,_0x40022f){const _0x29539c=_0x2953();return _0x2a0d=f
 //---------------------------------------------------------------------------
 //                  AI  CHAT  COMMAND
 //---------------------------------------------------------------------------
-smd({ pattern: "chat",desc: "chat with an AI",category: "ai",use: '<Hii, Suhail Tech Info>', filename: __filename,},async(Aviator, msg,text) => { return msg.reply(await aiResponce(msg, "chat", text)); }
+smd({ pattern: "chat",desc: "chat with an AI",category: "ai",use: '<Hii, DILSHAN Tech Info>', filename: __filename,},async(Aviator, msg,text) => { return msg.reply(await aiResponce(msg, "chat", text)); }
 )
 
 
 //---------------------------------------------------------------------------
-smd({pattern: "gpt",desc: "chat with an AI",category: "ai",use: '<Hii, Suhail Tech Info>',filename: __filename,},
+smd({pattern: "gpt",desc: "chat with an AI",category: "ai",use: '<Hii, DILSHAN Tech Info>',filename: __filename,},
     async(Aviator, msg,text) =>{
   if ( Config.OPENAI_API_KEY=='' ||  !Config.OPENAI_API_KEY.startsWith('sk') ) return msg.reply('```You Dont Have OPENAI API KEY \nPlease Create OPEN API KEY from Given Link \nhttps://platform.openai.com/account/api-keys\nAnd Set Key in Heroku OPENAI_API_KEY Var```')
   if (!text) return msg.reply(`Hey there! ${msg.pushName}. How are you doing these days?`); 
       return msg.send(await aiResponce(msg, "gpt",  text));
     });
 //---------------------------------------------------------------------------
-smd({pattern: "dalle",alias : ['dall','dall-e'],desc: "chat with an AI",category: "ai", use: '<Hii, Suhail Tech Info>',filename: __filename,},
+smd({pattern: "dalle",alias : ['dall','dall-e'],desc: "chat with an AI",category: "ai", use: '<Hii, DILSHANTech Info>',filename: __filename,},
     async(Aviator, msg,text) =>{
   if ( Config.OPENAI_API_KEY=='' ||  !Config.OPENAI_API_KEY.startsWith('sk') ) return msg.reply('```You Dont Have OPENAI API KEY \nPlease Create OPEN API KEY from Given Link \nhttps://platform.openai.com/account/api-keys\nAnd Set Key in Heroku OPENAI_API_KEY Var```')
  if (!text) return msg.reply(`*Give Me A Query To Get Dall-E Reponce ?*`); 
@@ -124,22 +117,22 @@ smd({
         category: "general",
         filename: __filename,
     },
-    async(Suhail, citel) => {
+    async(DILSHAN, citel) => {
       try{
-          let { data } = await axios.get('https://api.github.com/repos/SuhailTechInfo/Suhail-Md')
+          let { data } = await axios.get('https://github.com/Maduradilshan/DILSHAN-MD')
         let cap = `
         
-🔰 *Suhail-Md Repo Info* 🔰
+🔰 *DILSHAN-Md Repo Info* 🔰
   *❲❒❳ Stars:* ${data.stargazers_count} stars
   *❲❒❳ Forks:* ${data.forks_count} forks
-  *❲❒❳ Auther:* SuhailTechInfo
+  *❲❒❳ Auther:* DILSHANTechInfo
   *❲❒❳ Create:* ${data.created_at}
   *❲❒❳ Repo:* _${github}_
   *❲❒❳ Scan:* _${scan}_\n
-  *❲❒❳ Visit For Tutorial* _https://www.Youtube.com/c/SuhailTechInfo_
+  *❲❒❳ Visit For Tutorial* _https://www.Youtube.com/c/DILSHANTechInfo_
 ${Config.caption?'\n\n'+Config.caption : ''}`.trim();
 	
-        try{ return await Suhail.bot.sendMessage(citel.chat,  {   image: { url: await botpic() },    caption: cap,  } , {   quoted: citel, })}catch{return await citel.send(cap),{},'',citel}
+        try{ return await DILSHAN.bot.sendMessage(citel.chat,  {   image: { url: await botpic() },    caption: cap,  } , {   quoted: citel, })}catch{return await citel.send(cap),{},'',citel}
       }catch(e){return await citel.error(e)}
   });
 //---------------------------------------------------------------------------
@@ -152,7 +145,7 @@ smd({
         category: "general",
         filename: __filename,
     },
-    async(Suhail, citel) => {
+    async(DILSHAN, citel) => {
 
         const uptime = process.uptime();
         timestampe = speed();
@@ -179,7 +172,7 @@ smd({
   category: "general",
   filename: __filename,
 },
-async(Suhail, msg) => {
+async(DILSHAN, msg) => {
   try{
       const used = process.memoryUsage()
       const cpus = os.cpus().map(cpu => {
@@ -236,7 +229,7 @@ function _0x36ad(){var _0x363c23=['bot','65085XvYDUr','split','indexOf','onWhats
 //=================================================================================
 //                      Anonymous Chat
 //=================================================================================
-const sᴜʜᴀɪʟ_ᴍᴅ_AnonyMsg = {}
+const DILSHAN_ᴍᴅ_AnonyMsg = {}
 let isAnnonyMsgAlive = '';
 let cmdName = 'rcg';
 
