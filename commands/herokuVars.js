@@ -6,30 +6,23 @@
 //                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
-//                                                                                                      //
+// //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : DILSHAN-Md
+   * @author : DILSHAN Tech Info
+   * @youtube : https://www.youtube.com/c/@DILSHANTechInfo0
+   * @description : DILSHAN-Md ,A Multi-functional whatsapp user bot.
    * @version 1.2.2
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * ┌┤Created By Suhail Tech Info.
-   * © 2023 Suhail-Md ✭ ⛥.
+   * ┌┤Created By DILSHAN Tech Info.
+   * © 2023 DILSHAN-Md ✭ ⛥.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -65,7 +58,7 @@ if(Config.HEROKU_APP_NAME && Config.HEROKU_API_KEY ){
              category: "tools",
              filename: __filename
          },
-  async(Suhail, msg, text) => {
+  async(DILSHAN, msg, text) => {
 if(!msg.quoted) return await msg.reply(`*Please Reply A User*`);
 let user = msg.quoted.sender.split('@')[0]
 if (global.sudo.includes(user)) return msg.reply("Number Already Exist In Sudo");
@@ -97,7 +90,7 @@ fetch(`https://api.heroku.com/apps/${appName}/config-vars`,
              category: "tools",
              filename: __filename
          },
-async(Suhail, msg, text) => {  return await  msg.reply(global.sudo);})
+async(DILSHAN, msg, text) => {  return await  msg.reply(global.sudo);})
 //-------------------------------------------------------------------------
 
  smd({
@@ -106,7 +99,7 @@ async(Suhail, msg, text) => {  return await  msg.reply(global.sudo);})
              category: "tools",
              filename: __filename
          },
-  async(Suhail, msg, text) => {
+  async(DILSHAN, msg, text) => {
     
 if(!msg.quoted) return msg.reply(`*Please Reply A User*`);
 let user = msg.quoted.sender.split('@')[0] ;
@@ -153,7 +146,7 @@ smd({
         filename: __filename
     },
     
-async(Suhail, msg , text,{ isCreator }) => {
+async(DILSHAN, msg , text,{ isCreator }) => {
         
   if (!isCreator) return msg.reply(tlang().owner);
 const headers = {
@@ -180,10 +173,10 @@ smd({
         filename: __filename
     },
     
-async(Suhail, msg , text,{ isCreator }) => {
+async(DILSHAN, msg , text,{ isCreator }) => {
 
      if (!isCreator) return msg.reply(tlang().owner);
-if (!text) return msg.reply (`give me Variable Name\n*E.x : ${prefix}setvar CAPTION: Powered By Suhail Tech*`);
+if (!text) return msg.reply (`give me Variable Name\n*E.x : ${prefix}setvar CAPTION: Powered By DILSHAN Tech*`);
 const headers = 
         {
                  'Accept': 'application/vnd.heroku+json; version=3',
@@ -214,7 +207,7 @@ smd({
         filename: __filename
     },
     
-async(Suhail, msg , text,{ isCreator }) => {
+async(DILSHAN, msg , text,{ isCreator }) => {
    if (!isCreator) return msg.reply(tlang().owner);
 if (!text) return msg.reply (`give me Variable Name\nExample : ${prefix}getvar AUTO_READ_STATUS`);
 const headers = {
@@ -241,9 +234,9 @@ smd({
         category: "tools",
         filename: __filename
     },
-    async(Suhail, msg , text,{ isCreator }) => {
+    async(DILSHAN, msg , text,{ isCreator }) => {
  if (!isCreator) return msg.reply(tlang().owner);
-if (!text) return msg.reply (`give me Variable Name\n*Example : ${prefix}setvar CAPTION: Powered By Suhail Tech*`);
+if (!text) return msg.reply (`give me Variable Name\n*Example : ${prefix}setvar CAPTION: Powered By DILSHAN Tech*`);
 const headers = {
   'Accept': 'application/vnd.heroku+json; version=3',
   'Authorization': `Bearer ${authToken}`,
