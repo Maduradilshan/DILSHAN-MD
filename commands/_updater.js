@@ -4,13 +4,7 @@
 //                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
+//                        
 //                                                                                                      //
 //                                                                                                      //
 //                                                                                                      //
@@ -18,16 +12,16 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : DILSHAN-Md
+   * @author : DILSHAN Tech Info
+   * @youtube : https://www.youtube.com/c/@DILSHANTechInfo0
+   * @description : DILSHAN-Md ,A Multi-functional whatsapp user bot.
    * @version 1.2.2
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By DILSHAN Tech Info.
+   * © 2023 DILSHAN-Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -61,12 +55,12 @@ smd({
             category: "tools",
             filename: __filename
         },
-        async(Suhail, msg, text,{ isCreator }) => {
+        async(DILSHAN , msg, text,{ isCreator }) => {
             if (!isCreator) return msg.reply(`This command is only for my owner`)
             let commits = await DB.syncgit()
             if (commits.total === 0) return await msg.reply(`*BOT IS UPTO DATE...!!*`) 
-            let update = `*SUHAIL_MD New Updates:*\n\n${await DB.sync()}`
-            await Suhail.bot.sendMessage(msg.chat, { text: update, },{ quoted : msg });
+            let update = `*DILSHAN_MD New Updates:*\n\n${await DB.sync()}`
+            await DILSHAN.bot.sendMessage(msg.chat, { text: update, },{ quoted : msg });
             if(Config.HEROKU_APP_NAME && Config.HEROKU_API_KEY && text == 'start')
             {
                await msg.reply('Heroku Build started...');
@@ -89,12 +83,12 @@ smd({
                  category: "tools",
                  filename: __filename
              },
-        async(Suhail, msg, text,{ isCreator }) => {
+        async(DILSHAN, msg, text,{ isCreator }) => {
                 if(!isCreator) return await msg.reply("Only Owner Can Use This Command")
                 let commits = await DB.syncgit()
                 if (commits.total === 0) return await msg.reply(`*YOU HAVE LATEST VERSION INSTALLED!*`)
                 let update = await DB.sync()
-                await msg.send(" *SUHAIL_MD Updater Started...!*\n\n*Please wait you have new updates*\n *───────────────────────────*\n"+update +"\n\n\n"+Config.caption);
+                await msg.send(" *DILSHAN_MD Updater Started...!*\n\n*Please wait you have new updates*\n *───────────────────────────*\n"+update +"\n\n\n"+Config.caption);
                 await sleep(3000);
           try{
                let res = await updateHerokuApp('no');
@@ -102,6 +96,6 @@ smd({
           await msg.reply(`*Successfully updated. Now You Have Latest Version Installed!*`);
                 process.exit(0);
        })
-smd({   pattern: "restart", desc: "To restart bot",category: "tools", filename: __filename }, async(Suhail, msg,text,{ isCreator }) => {  if (!isCreator) return msg.reply(tlang().owner);  const { exec } = require("child_process"); msg.reply('Restarting'); exec('pm2 restart all'); });
+smd({   pattern: "restart", desc: "To restart bot",category: "tools", filename: __filename }, async(DILSHAN, msg,text,{ isCreator }) => {  if (!isCreator) return msg.reply(tlang().owner);  const { exec } = require("child_process"); msg.reply('Restarting'); exec('pm2 restart all'); });
 
  
