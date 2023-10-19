@@ -5,13 +5,8 @@
 //                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
+//                                  
+//                                  
 //                                                                                                      //
 //                                                                                                      //
 //                                                                                                      //
@@ -19,16 +14,16 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : DILSHAN-Md
+   * @author : DILSHAN Tech Info
+   * @youtube : https://www.youtube.com/c/@DILSHANTechInfo0
+   * @description : DILSHAN-Md ,A Multi-functional whatsapp user bot.
    * @version 1.2.2
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By DILSHAN Tech Info.
+   * © 2023 DILSHAN-Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -50,20 +45,20 @@ const eco = require('discord-mongoose-economy')
 
 
 const stickers = [
- "https://raw.githubusercontent.com/SuhailTechInfo/Suhail-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-1.webp",
- "https://raw.githubusercontent.com/SuhailTechInfo/Suhail-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-2.webp",
- "https://raw.githubusercontent.com/SuhailTechInfo/Suhail-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-3.webp",
- "https://raw.githubusercontent.com/SuhailTechInfo/Suhail-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-3.webp",
- "https://raw.githubusercontent.com/SuhailTechInfo/Suhail-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-4.webp",
- "https://raw.githubusercontent.com/SuhailTechInfo/Suhail-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-4.webp",
- "https://raw.githubusercontent.com/SuhailTechInfo/Suhail-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-5.webp",
- "https://raw.githubusercontent.com/SuhailTechInfo/Suhail-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-6.webp",
+ "https://raw.githubusercontent.com/DILSHANTechInfo/DILSHAN-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-1.webp",
+ "https://raw.githubusercontent.com/DILSHANTechInfo/DILSHAN-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-2.webp",
+ "https://raw.githubusercontent.com/DILSHANTechInfo/DILSHAN-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-3.webp",
+ "https://raw.githubusercontent.com/DILSHANTechInfo/DILSHAN-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-3.webp",
+ "https://raw.githubusercontent.com/DILSHANTechInfo/DILSHAN-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-4.webp",
+ "https://raw.githubusercontent.com/DILSHANTechInfo/DILSHAN-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-4.webp",
+ "https://raw.githubusercontent.com/DILSHANTechInfo/DILSHAN-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-5.webp",
+ "https://raw.githubusercontent.com/DILSHANTechInfo/DILSHAN-Md-Media/main/ᴅɪᴄᴇ/sᴜʜᴀɪʟ-ᴍᴅ-ᴅɪᴄᴇ-6.webp",
  ];
 
 /**
 * Thanks to @siraj-7
 * For These Dice Stickers
-* @author : Suhail Tech Info
+* @author : DILSHAN Tech Info
 **/
 
 smd(
@@ -73,8 +68,8 @@ smd(
    filename: __filename,
    category: "game",
  },
- async (Suhail,msgs,text) => {        
-   function _0x1057(){const _0x1197c1=['19265RxwKNW','780DDnVuc','sᴜʜᴀɪʟ-ᴍᴅ','3528awUTID','length','621548LyOqYd','1498381wAYdEg','1612210HskIPI','chat','18aDiqRh','22YBynzo','42384744BVxsBD','6️⃣','5️⃣','4️⃣','sendMessage','7552ClpecV','random','2RtaivP','5267941SjazyO','floor','ᴅɪᴄᴇ','1️⃣'];_0x1057=function(){return _0x1197c1;};return _0x1057();}function _0x42fa(_0x59f5c3,_0x27342d){const _0x105742=_0x1057();return _0x42fa=function(_0x42fa63,_0x296206){_0x42fa63=_0x42fa63-0x189;let _0x13f68a=_0x105742[_0x42fa63];return _0x13f68a;},_0x42fa(_0x59f5c3,_0x27342d);}const _0x3f5752=_0x42fa;(function(_0x515ee8,_0x26c5b6){const _0x24734b=_0x42fa,_0x34fa6f=_0x515ee8();while(!![]){try{const _0x4cca3a=-parseInt(_0x24734b(0x19d))/0x1*(parseInt(_0x24734b(0x192))/0x2)+-parseInt(_0x24734b(0x189))/0x3*(parseInt(_0x24734b(0x19c))/0x4)+parseInt(_0x24734b(0x197))/0x5*(parseInt(_0x24734b(0x198))/0x6)+-parseInt(_0x24734b(0x193))/0x7+-parseInt(_0x24734b(0x190))/0x8*(-parseInt(_0x24734b(0x19a))/0x9)+-parseInt(_0x24734b(0x19e))/0xa*(parseInt(_0x24734b(0x18a))/0xb)+parseInt(_0x24734b(0x18b))/0xc;if(_0x4cca3a===_0x26c5b6)break;else _0x34fa6f['push'](_0x34fa6f['shift']());}catch(_0x430693){_0x34fa6f['push'](_0x34fa6f['shift']());}}}(_0x1057,0xdb10c));try{const randomIndex=Math['floor'](Math[_0x3f5752(0x191)]()*stickers[_0x3f5752(0x19b)]),randomSticker=stickers[randomIndex];return await Suhail.bot['sendMessage'](msgs[_0x3f5752(0x19f)],{'sticker':{'url':randomSticker},'packname':_0x3f5752(0x195),'author':_0x3f5752(0x199)});}catch(_0x141513){const randomNumber=Math[_0x3f5752(0x194)](Math[_0x3f5752(0x191)]()*0x6),diceEmoji=['⚀','⚁','⚂','⚃','⚄','⚅'],reactEmoji=[_0x3f5752(0x196),'2️⃣','3️⃣',_0x3f5752(0x18e),_0x3f5752(0x18d),_0x3f5752(0x18c)];let index=Math[_0x3f5752(0x194)](Math[_0x3f5752(0x191)]()*diceEmoji[_0x3f5752(0x19b)]),msg=await Suhail.bot['sendMessage'](msgs['chat'],{'text':diceEmoji[index]});return await Suhail.bot[_0x3f5752(0x18f)](msgs[_0x3f5752(0x19f)],{'react':{'text':reactEmoji[index],'key':msg['key']}});}
+ async (DILSHAN,msgs,text) => {        
+   function _0x1057(){const _0x1197c1=['19265RxwKNW','780DDnVuc','sᴜʜᴀɪʟ-ᴍᴅ','3528awUTID','length','621548LyOqYd','1498381wAYdEg','1612210HskIPI','chat','18aDiqRh','22YBynzo','42384744BVxsBD','6️⃣','5️⃣','4️⃣','sendMessage','7552ClpecV','random','2RtaivP','5267941SjazyO','floor','ᴅɪᴄᴇ','1️⃣'];_0x1057=function(){return _0x1197c1;};return _0x1057();}function _0x42fa(_0x59f5c3,_0x27342d){const _0x105742=_0x1057();return _0x42fa=function(_0x42fa63,_0x296206){_0x42fa63=_0x42fa63-0x189;let _0x13f68a=_0x105742[_0x42fa63];return _0x13f68a;},_0x42fa(_0x59f5c3,_0x27342d);}const _0x3f5752=_0x42fa;(function(_0x515ee8,_0x26c5b6){const _0x24734b=_0x42fa,_0x34fa6f=_0x515ee8();while(!![]){try{const _0x4cca3a=-parseInt(_0x24734b(0x19d))/0x1*(parseInt(_0x24734b(0x192))/0x2)+-parseInt(_0x24734b(0x189))/0x3*(parseInt(_0x24734b(0x19c))/0x4)+parseInt(_0x24734b(0x197))/0x5*(parseInt(_0x24734b(0x198))/0x6)+-parseInt(_0x24734b(0x193))/0x7+-parseInt(_0x24734b(0x190))/0x8*(-parseInt(_0x24734b(0x19a))/0x9)+-parseInt(_0x24734b(0x19e))/0xa*(parseInt(_0x24734b(0x18a))/0xb)+parseInt(_0x24734b(0x18b))/0xc;if(_0x4cca3a===_0x26c5b6)break;else _0x34fa6f['push'](_0x34fa6f['shift']());}catch(_0x430693){_0x34fa6f['push'](_0x34fa6f['shift']());}}}(_0x1057,0xdb10c));try{const randomIndex=Math['floor'](Math[_0x3f5752(0x191)]()*stickers[_0x3f5752(0x19b)]),randomSticker=stickers[randomIndex];return await Suhail.bot['sendMessage'](msgs[_0x3f5752(0x19f)],{'sticker':{'url':randomSticker},'packname':_0x3f5752(0x195),'author':_0x3f5752(0x199)});}catch(_0x141513){const randomNumber=Math[_0x3f5752(0x194)](Math[_0x3f5752(0x191)]()*0x6),diceEmoji=['⚀','⚁','⚂','⚃','⚄','⚅'],reactEmoji=[_0x3f5752(0x196),'2️⃣','3️⃣',_0x3f5752(0x18e),_0x3f5752(0x18d),_0x3f5752(0x18c)];let index=Math[_0x3f5752(0x194)](Math[_0x3f5752(0x191)]()*diceEmoji[_0x3f5752(0x19b)]),msg=await DILSHAN.bot['sendMessage'](msgs['chat'],{'text':diceEmoji[index]});return await DILSHAN.bot[_0x3f5752(0x18f)](msgs[_0x3f5752(0x19f)],{'react':{'text':reactEmoji[index],'key':msg['key']}});}
  })
 
 smd(
@@ -84,11 +79,11 @@ smd(
    filename: __filename,
    category: "game",
  },
- async (Suhail,msgs,text,{isCreator}) => {
+ async (DILSHAN,msgs,text,{isCreator}) => {
        if (!msgs.isGroup) return msgs.reply(tlang().group);
-       const groupMetadata = msgs.isGroup ? await Suhail.bot.groupMetadata(msgs.chat).catch((e) => {}) : "";
+       const groupMetadata = msgs.isGroup ? await DILSHAN.bot.groupMetadata(msgs.chat).catch((e) => {}) : "";
        const participants = msgs.isGroup ? await groupMetadata.participants : "";
-       const groupAdmins = await getAdmin(Suhail.bot, msgs)
+       const groupAdmins = await getAdmin(DILSHAN.bot, msgs)
        const isAdmins = msgs.isGroup ? groupAdmins.includes(msgs.sender) : false;
        if(!isAdmins && !isCreator) return msgs.send('This command is only for Group Admin and my owner.')
         this.game = this.game ? this.game : false
@@ -113,7 +108,7 @@ smd(
    filename: __filename,
    category: "game",
  },
- async (Suhail,msgs,text) => {
+ async (DILSHAN,msgs,text) => {
    if (!msgs.isGroup) return msgs.reply(tlang().group);
    let {prefix} = require('../lib')
    {
@@ -148,7 +143,7 @@ ${arr.slice(3, 6).join("  ")}
 ${arr.slice(6).join("  ")}
 `;
 
-       return await Suhail.bot.sendMessage(msgs.chat, { text: str, mentions: [room.game.currentTurn], });
+       return await DILSHAN.bot.sendMessage(msgs.chat, { text: str, mentions: [room.game.currentTurn], });
      } else {
        room = {
          id: "tictactoe-" + +new Date(),
@@ -166,7 +161,7 @@ ${arr.slice(6).join("  ")}
 );
 
 smd({ on: "text" },
- async (Suhail,msgs,text) => {
+ async (DILSHAN,msgs,text) => {
    if(!msgs.isGroup) return
    let {prefix} = require('../lib')
    this.game = this.game ? this.game : {};
@@ -239,20 +234,20 @@ ${ isWin ? `@${winner.split("@")[0]} Won ! and got 2000💎 in wallet🤑` : isT
 
      if ((room.game._currentTurn ^ isSurrender ? room.x : room.o) !== msgs.chat)
        room[room.game._currentTurn ^ isSurrender ? "x" : "o"] = msgs.chat;
-     if(isWin && isMongodb){ await eco.give(msgs.sender, "Suhail", 2000); }
+     if(isWin && isMongodb){ await eco.give(msgs.sender, "DILSHAN", 2000); }
      if (isWin || isTie) { 
-       await Suhail.bot.sendMessage(msgs.chat, { text: str, mentions: [room.game.playerO,room.game.playerX], });
+       await DILSHAN.bot.sendMessage(msgs.chat, { text: str, mentions: [room.game.playerO,room.game.playerX], });
        delete this.game[room.id];
      } 
-     else {  await Suhail.bot.sendMessage(msgs.chat, {  text: str,   mentions: [room.game.playerO,room.game.playerX], });  }
+     else {  await DILSHAN.bot.sendMessage(msgs.chat, {  text: str,   mentions: [room.game.playerO,room.game.playerX], });  }
    }
  }
 );
 
-smd({ pattern: "ship" , category: "fun" }, async(Suhail, msgs, text) => {
+smd({ pattern: "ship" , category: "fun" }, async(DILSHAN, msgs, text) => {
    const { tlang } = require('../lib')
   if (!msgs.isGroup) return msgs.reply(tlang().group);
-  const groupMetadata = msgs.isGroup ? await Suhail.bot.groupMetadata(msgs.chat).catch((e) => {}) : "";
+  const groupMetadata = msgs.isGroup ? await DILSHAN.bot.groupMetadata(msgs.chat).catch((e) => {}) : "";
   const participants = msgs.isGroup ? await groupMetadata.participants : "";
   let members = participants.map(u => u.id)
   const percentage = Math.floor(Math.random() * 100)
@@ -284,7 +279,7 @@ smd({ pattern: "ship" , category: "fun" }, async(Suhail, msgs, text) => {
        caption += `\t\t✯────────────────────✯\n`
        caption += await couple(percentage)
        if(msgs.sender.split('@')[0]===shiper.split('@')[0]) return msgs.reply('```'+'Wait... What!!!,You wanna do matchmaking with yourself'+'```')
-       await Suhail.bot.sendMessage(msgs.chat,{text: caption,mentions: [msgs.sender,shiper]},{quoted:msgs})
+       await DILSHAN.bot.sendMessage(msgs.chat,{text: caption,mentions: [msgs.sender,shiper]},{quoted:msgs})
   }
 )
 // IDEA of Shipcent from => https://github.com/iamherok/WhatsApp-Botto-Ruka/blob/master/handler/message.js#L842
