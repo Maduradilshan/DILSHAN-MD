@@ -4,30 +4,23 @@
 //                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
-//                                                                                                      //
+//                                                                                                                                                 //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : sᴜʜᴀɪʟ-ᴍᴅ
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : DILSHAN-ᴍᴅ
+   * @author : DILSHAN Tech Info
+   * @youtube : https://www.youtube.com/c/@DILSHANTechInfo0
+   * @description : DILSHAN-Md ,A Multi-functional whatsapp user bot.
    * @version 1.2.2
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By DiLSHAN Tech Info.
+   * © 2023 DILSHAN-Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -50,29 +43,29 @@ const {TelegraPh} = require('../lib/scraper')
 let cap =  Config.caption || "";
 
 
-smd({ pattern: "ad", category: "editor", filename: __filename,  desc: "add view pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "ad", category: "editor", filename: __filename,  desc: "add view pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
-smd({ pattern: "jail", category: "editor", filename: __filename,  desc: "jail pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "jail", category: "editor", filename: __filename,  desc: "jail pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
-smd({ pattern: "uncover", category: "editor", filename: __filename,  desc: "pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "uncover", category: "editor", filename: __filename,  desc: "pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
-smd({ pattern: "clown", category: "editor", filename: __filename,  desc: "pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "clown", category: "editor", filename: __filename,  desc: "pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
-smd({ pattern: "mnm", category: "editor", filename: __filename,  desc: "pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "mnm", category: "editor", filename: __filename,  desc: "pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
-smd({ pattern: "pet", category: "editor", filename: __filename,  desc: "pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "pet", category: "editor", filename: __filename,  desc: "pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
-smd({ pattern: "greyscale", category: "editor", filename: __filename,  desc: "pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "greyscale", category: "editor", filename: __filename,  desc: "pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
-smd({ pattern: "invert", category: "editor", filename: __filename,  desc: "pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "invert", category: "editor", filename: __filename,  desc: "pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
-smd({ pattern: "blur", category: "editor", filename: __filename,  desc: "pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "blur", category: "editor", filename: __filename,  desc: "pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //============================================================================
-smd({ pattern: "drip", category: "editor", filename: __filename,  desc: "pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "drip", category: "editor", filename: __filename,  desc: "pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
-smd({ pattern: "colorify", category: "editor", filename: __filename,  desc: "pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "colorify", category: "editor", filename: __filename,  desc: "pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
-smd({ pattern: "gun", category: "editor", filename: __filename,  desc: "pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "gun", category: "editor", filename: __filename,  desc: "pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
-smd({ pattern: "wanted", category: "editor", filename: __filename,  desc: "pic Editor."},async(Suhail, msg, text , { cmdName}) => { await photoEditor(Suhail, msg , cmdName , cap); })
+smd({ pattern: "wanted", category: "editor", filename: __filename,  desc: "pic Editor."},async(DILSHAN, msg, text , { cmdName}) => { await photoEditor(DILSHAN, msg , cmdName , cap); })
 //=============================================================================
