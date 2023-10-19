@@ -5,13 +5,8 @@
 //                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
+                                       
+//                              
 //                                                                                                      //
 //                                                                                                      //
 //                                                                                                      //
@@ -19,16 +14,16 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : DILSHAN -Md
+   * @author : DILSHAN  Tech Info
+   * @youtube : https://www.youtube.com/c/@DILSHANTechInfo0
+   * @description : DILSHAN -Md ,A Multi-functional whatsapp user bot.
    * @version 1.2.1
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By DILSHAN Tech Info.
+   * © 2023 DILSHAN -Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -52,41 +47,41 @@ const {updateProfilePicture,forwardMessage, getAdmin} = require("../lib")
 
 
 ///============================================================================================
-smd({ pattern: "ptv", desc: "send ptv Message of video", category: "whatsapp",filename: __filename},async(Suhail, msg, text,{cmdName , isCreator}) => {
+smd({ pattern: "ptv", desc: "send ptv Message of video", category: "whatsapp",filename: __filename},async(DILSHAN , msg, text,{cmdName , isCreator}) => {
    if(!msg.quoted) return await msg.send("*Uhh please, reply to a video Message*")
    let mtype = msg.quoted.mtype 
    if(mtype !== "videoMessage") return await msg.send("*Replied Message is not a video, Idiot.*")
-   return await forwardMessage(msg.chat, Suhail, msg, cmdName )
+   return await forwardMessage(msg.chat, DILSHAN , msg, cmdName )
 })////------------------------------------------------------------
-smd({pattern: "#", desc: "Save whatsapp status",category: "whatsapp",filename: __filename},async(Suhail, msg, text,{cmdName , isCreator}) => {
+smd({pattern: "#", desc: "Save whatsapp status",category: "whatsapp",filename: __filename},async(DILSHAN , msg, text,{cmdName , isCreator}) => {
    if(!msg.quoted) return await msg.send("*Uhh Please, reply to whatsapp status*")
-   let sᴜʜᴀɪʟ_ᴍᴅ_num = await Suhail.bot.decodeJid(msg.user)
-   return await forwardMessage(sᴜʜᴀɪʟ_ᴍᴅ_num, Suhail, msg, cmdName )
+   let sᴜʜᴀɪʟ_ᴍᴅ_num = await DILSHAN .bot.decodeJid(msg.user)
+   return await forwardMessage(sᴜʜᴀɪʟ_ᴍᴅ_num, DILSHAN , msg, cmdName )
 })//--------------------------------------------------------------------
-smd({pattern: "save",desc: "Save Message to log number",category: "whatsapp",filename: __filename},async(Suhail, msg, text,{cmdName , isCreator}) => {
+smd({pattern: "save",desc: "Save Message to log number",category: "whatsapp",filename: __filename},async(DILSHAN , msg, text,{cmdName , isCreator}) => {
    if(!isCreator) return await msg.send(tlang().owner)
    if(!msg.quoted) return await msg.send("*Uhh Please, reply to a Message*")
-   let sᴜʜᴀɪʟ_ᴍᴅ_num = await Suhail.bot.decodeJid(msg.user)
-   return await forwardMessage(sᴜʜᴀɪʟ_ᴍᴅ_num, Suhail, msg, cmdName )
+   let sᴜʜᴀɪʟ_ᴍᴅ_num = await DILSHAN .bot.decodeJid(msg.user)
+   return await forwardMessage(sᴜʜᴀɪʟ_ᴍᴅ_num, DILSHAN , msg, cmdName )
 })///================================================================================
-smd({ on: "text" }, async (Suhail,msg,text)=> {
+smd({ on: "text" }, async (DILSHAN,msg,text)=> {
    if(msg.quoted && msg.text.toLowerCase().includes("send") ){
-       let sᴜʜᴀɪʟ_ᴍᴅ_num = await Suhail.bot.decodeJid(msg.user)
-       if(msg.quoted.sender === sᴜʜᴀɪʟ_ᴍᴅ_num && msg.quoted.chat === 'status@broadcast' ){ return await forwardMessage(msg.chat, Suhail.bot, msg, 'send' ); }
+       let sᴜʜᴀɪʟ_ᴍᴅ_num = await DILSHAN.bot.decodeJid(msg.user)
+       if(msg.quoted.sender === sᴜʜᴀɪʟ_ᴍᴅ_num && msg.quoted.chat === 'status@broadcast' ){ return await forwardMessage(msg.chat, DILSHAN.bot, msg, 'send' ); }
    }
 })//==================================================================
 
 smd({pattern: "pp",desc: "Set profile picture",category: "whatsapp",use: '<reply to image>', filename: __filename,},
-async(Suhail, msg,text,{cmdName , isCreator}) => {
+async(DILSHAN, msg,text,{cmdName , isCreator}) => {
    if(!isCreator) return await msg.send(tlang().owner);if (!msg.quoted) return await msg.reply("*Reply to an image, dear*");
    if(msg.quoted.mtype !='imageMessage') return await msg.reply("*_Uhh please, Reply to an image._*");    
-   const sᴜʜᴀɪʟ_ᴍᴅ_num = await Suhail.bot.decodeJid(msg.user); return await updateProfilePicture(Suhail , sᴜʜᴀɪʟ_ᴍᴅ_num , msg , 'pp' );
+   const sᴜʜᴀɪʟ_ᴍᴅ_num = await DILSHAN .bot.decodeJid(msg.user); return await updateProfilePicture(DILSHAN  , sᴜʜᴀɪʟ_ᴍᴅ_num , msg , 'pp' );
  })
 smd({ pattern: "fullpp", desc: "Set full screen profile picture", category: "whatsapp", use: '<reply to image>', filename: __filename,},
- async(Suhail, msg,text,{cmdName , isCreator}) => {
+ async(DILSHAN, msg,text,{cmdName , isCreator}) => {
    if(!isCreator) return await msg.send(tlang().owner);if (!msg.quoted) return await msg.reply("*Reply to an image, sir*");
    if(msg.quoted.mtype !='imageMessage') return await msg.reply("*_Uhh please, Reply to an image._*");
-   const sᴜʜᴀɪʟ_ᴍᴅ_num = await Suhail.bot.decodeJid(msg.user); return await updateProfilePicture(Suhail , sᴜʜᴀɪʟ_ᴍᴅ_num , msg , 'fullpp' );    
+   const sᴜʜᴀɪʟ_ᴍᴅ_num = await DILSHAN.bot.decodeJid(msg.user); return await updateProfilePicture(DILSHAN , sᴜʜᴀɪʟ_ᴍᴅ_num , msg , 'fullpp' );    
 });
 
 
