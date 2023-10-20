@@ -5,13 +5,6 @@
 //                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
 //                                                                                                      //
 //                                                                                                      //
 //                                                                                                      //
@@ -19,16 +12,16 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : DILSHAN-Md
+   * @author : DILSHAN Tech Info
+   * @youtube : https://www.youtube.com/c/@DILSHANTechInfo0
+   * @description : DILSHAN-Md ,A Multi-functional whatsapp user bot.
    * @version 1.2.2
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By DILSHAN Tech Info.
+   * © 2023 DILSHAN-Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -52,11 +45,11 @@ smd({
         category: "group",
         filename: __filename
     },
-    async(Suhail, msg, text,{ isCreator }) => {
+    async(DILSHAN, msg, text,{ isCreator }) => {
         //-----------------------------------------	
         if (!msg.isGroup) return msg.reply(tlang().group);
-        const groupAdmins = await getAdmin(Suhail.bot, msg)
-        const botNumber = await Suhail.bot.decodeJid(msg.user)
+        const groupAdmins = await getAdmin(DILSHAN.bot, msg)
+        const botNumber = await DILSHAN.bot.decodeJid(msg.user)
         const isBotAdmins = msg.isGroup ? groupAdmins.includes(botNumber) : false;
         const isAdmins = msg.isGroup ? groupAdmins.includes(msg.sender) : false;
         //-----------------------------------------  
