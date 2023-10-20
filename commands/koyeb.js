@@ -5,13 +5,6 @@
 //                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
 //                                                                                                      //
 //                                                                                                      //
 //                                                                                                      //
@@ -19,16 +12,16 @@
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/c/@SuhailTechInfo0
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : DILSHAN-Md
+   * @author : DILSHAN Tech Info
+   * @youtube : https://www.youtube.com/c/@DILSHANTechInfo0
+   * @description : DILSHAN-Md ,A Multi-functional whatsapp user bot.
    * @version 1.2.2
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By DILSHAN Tech Info.
+   * © 2023 DILSHAN-Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -56,7 +49,7 @@ smd(
     filename: __filename,
     category: "misc",
   },
-  async (Suhail,msg,text,{isCreator}) => {
+  async (DILSHAN,msg,text,{isCreator}) => {
        if(!isCreator) return msg.reply(tlang().owner);
        let check = await get_deployments()
        if(check==='true') return msg.reply('_Please wait..._\n_Currently 2 instances are running in Koyeb,wait to stop one of them._')
@@ -71,7 +64,7 @@ smd(
     filename: __filename,
     category: "misc",
   },
-  async (Suhail,msg,text,{isCreator}) => {
+  async (DILSHAN,msg,text,{isCreator}) => {
        if(!isCreator) return msg.reply(tlang().owner);
        if(!text) return msg.reply('Please provide key.\n_Eg: .getvar PORT_')
        let data = await getvar(text);
@@ -85,7 +78,7 @@ smd(
     filename: __filename,
     category: "misc",
   },
-  async (Suhail,msg,text,{isCreator}) => {
+  async (DILSHAN,msg,text,{isCreator}) => {
        if(!isCreator) return msg.reply(tlang().owner);
        let data = await getallvar();
        return msg.reply(data)
@@ -98,7 +91,7 @@ smd(
     filename: __filename,
     category: "misc",
   },
-  async (Suhail,msg,text,{isCreator}) => {
+  async (DILSHAN,msg,text,{isCreator}) => {
        if(!isCreator) return msg.reply(tlang().owner);
        if(!text.split(':')[1]) return msg.reply('*Wrong Format.*\nPlease provide key and value.\n_Eg: .setvar THEME:SECKTOR_')
        let check = await get_deployments()
@@ -115,7 +108,7 @@ smd(
     filename: __filename,
     category: "misc",
   },
-  async (Suhail,msg,text,{isCreator}) => {
+  async (DILSHAN,msg,text,{isCreator}) => {
        if(!isCreator) return msg.reply(tlang().owner);
        if(!text) return msg.reply('Please provide key.\n_Eg: .delvar PORT_')
        let check = await get_deployments()
