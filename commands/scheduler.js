@@ -5,30 +5,22 @@
 //                                ＷＨＡＴＳＡＰＰ ＢＯＴ－ＭＤ ＢＥＴＡ                                   //
 //                                                                                                      // 
 //                                         Ｖ：１．０．１                                                // 
-//                                                                                                      // 
-//            ███████╗██╗   ██╗██╗  ██╗ █████╗ ██╗██╗         ███╗   ███╗██████╗                        //
-//            ██╔════╝██║   ██║██║  ██║██╔══██╗██║██║         ████╗ ████║██╔══██╗                       //
-//            ███████╗██║   ██║███████║███████║██║██║         ██╔████╔██║██║  ██║                       //
-//            ╚════██║██║   ██║██╔══██║██╔══██║██║██║         ██║╚██╔╝██║██║  ██║                       //
-//            ███████║╚██████╔╝██║  ██║██║  ██║██║███████╗    ██║ ╚═╝ ██║██████╔╝                       //
-//            ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚═╝     ╚═╝╚═════╝                        //
-//                                                                                                      //
 //                                                                                                      //
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 
 CURRENTLY RUNNING ON BETA VERSION!!
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/SuhailTechInfo
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : DILSHAN-Md
+   * @author : DILSHAN Tech Info
+   * @youtube : https://www.youtube.com/DILSHANTechInfo
+   * @description : DILSHAN-Md ,A Multi-functional whatsapp user bot.
    * @version 1.2.2
 *
    * Licensed under the  GPL-3.0 License;
 * 
-   * Created By Suhail Tech Info.
-   * © 2023 Suhail-Md.
+   * Created By DILSHAN Tech Info.
+   * © 2023 DILSHAN-Md.
 * 
    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -48,7 +40,7 @@ if(isMongodb){ let groupid = ''
         desc: "sets auto mute time in group.",
         category: "moderation",
     },
-    async(Suhail, msg, text,{ isCreator }) => {
+    async(DILSHAN, msg, text,{ isCreator }) => {
         if (!isCreator) return msg.reply(tlang().owner)
         if(!msg.isGroup) return msg.reply(tlang().group)
         if(!text.split(':')[1]) return msg.reply(`Please provide correct form.\nEg: setmute ${prefix}22:00`)
@@ -71,7 +63,7 @@ if(isMongodb){ let groupid = ''
        desc: "sets unmute time in group.",
        category: "moderation",
    },
-   async(Suhail, msg, text,{ isCreator }) => {
+   async(DILSHAN, msg, text,{ isCreator }) => {
        if (!isCreator) return msg.reply(tlang().owner)
        if(!msg.isGroup) return msg.reply(tlang().group)
        if(!text.split(':')[0]) return msg.reply(`Please provide correct form.\nEg: setmute ${prefix}22:00`)
@@ -94,7 +86,7 @@ if(isMongodb){ let groupid = ''
        desc: "Delete unmute from group.",
        category: "moderation",
    },
-   async(Suhail, msg, text,{ isCreator }) => {
+   async(DILSHAN, msg, text,{ isCreator }) => {
        if (!isCreator) return msg.reply(tlang().owner)
        if(!msg.isGroup) return msg.reply(tlang().group)
              let Group = await sck.findOne({ id: msg.chat })
@@ -113,7 +105,7 @@ if(isMongodb){ let groupid = ''
        desc: "Delete mute from group.",
        category: "moderation",
    },
-   async(Suhail, msg, text,{ isCreator }) => {
+   async(DILSHAN, msg, text,{ isCreator }) => {
        if (!isCreator) return msg.reply(tlang().owner)
        if(!msg.isGroup) return msg.reply(tlang().group)
              let Group = await sck.findOne({ id: msg.chat })
