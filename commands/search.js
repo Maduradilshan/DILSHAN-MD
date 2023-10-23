@@ -431,3 +431,26 @@ if(!nobios){ nobio = ''; } else {nobio += nobios+'\n' ;}
 return await citel.reply(`${nobio}${nowhatsapp}${Config.caption}`);
   
 })
+cmd({  
+      pattern: "nasa",  
+      alias: ["5","ns"],  
+      react: "🛸",  
+      desc: "nasa",  
+      category: "news",  
+      use: '.hirunews',  
+      filename: __filename  
+  },  
+  async(Void, citel) => {  
+  try{  
+  const nasa = await fetchJson(`https://queen-api.onrender.com/api/news/nasa-news`);  
+  
+            const images = `${nasa.result.image}`  
+             const title = `${nasa.result.title}` 
+             const news = `${nasa.result.description}`  
+  
+  await Void.sendMessage(citel.chat,  { image: { url: images }, caption: `\n*${ title }*\n\n _${news}._\n\n*`}, { quoted: citel })  
+  }  
+  catch(e){  
+  console.log(e)  
+  }})
+//---------------------------------------
