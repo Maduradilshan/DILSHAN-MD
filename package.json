@@ -1,13 +1,13 @@
 {
-               "name": "DILSHAN-md",
+               "name": "DILSHAN-MD",
                "version": "1.2.2",
                "description": "Multi device whatsapp bot by Dilshan TechInfo.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name Suhail-Md",
-                "stop": "pm2 stop Suhail-Md"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name DILSHAN-MD",
+                "stop": "pm2 stop DILSHAN-MD"
                 },
                "author": "DilshanTechInfo",
               "dependencies": {
