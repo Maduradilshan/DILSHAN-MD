@@ -16,6 +16,8 @@ global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi'
 global.gurl = 'https://youtube.com/@gamingewingyt6216' ; // add your username
 global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '94773277849'; ;
 global.devs = "923184474176"; //Dont change it From here
+global.OWNER_REACT =  '👨‍💻'
+global.devs = '94767233346@s.whatsapp.net' if (citel.sender === devss){ citel.react('👨‍💻') };
 global.github  = process.env.YOUR_GITHUB || 'https://github.com/Maduradilshan/DILSHAN-MD';
 global.scan  = process.env.QR_URL || 'https://replit.com/@VajiraRathnayak/DILSHAN-MD-BOT?v=1';
 global.website = 'https://github.com/Maduradilshan/DILSHAN-MD/tree/main' ; //wa.me/+923000000000
