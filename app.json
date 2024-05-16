@@ -1,111 +1,22 @@
 {
-  "name": "DILSHAN-Md By DILSHAN Tech Info",
-  "description": "A Whatsapp bot built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SuhailTechInfo",
-  "logo": "https://telegra.ph/file/a8a67f4472fddcb7a76b5.jpg",
-  "keywords": ["whatsappbot", "suhailMd", "suhail Md Wa bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
-  "success_url": "/",
-  "stack": "container",
-"env": {
-  "OWNER_NAME": {
-    "description": "Name of Bot Owner",    
-    "value": "Dilshan Tech Info",
-    "required" :true
-  }, 
-  "HEROKU_API_KEY": {
-    "description": "Put Your Heroku Api Key Here",
-    "value": "",
-	  "required" :true 
-  },   
-  "HEROKU_APP_NAME": {
-    "description": "Put Your Heroku App Name Here",
-    "value": "",
-	 "required" :false
-  },
-  "LEVEL_UP_MESSAGE": {
-    "description": "Fill the value true if you want bot send Level up message in chat.",
-    "required" :false,
-    "value": "true"
-  }, 
-  "WAPRESENCE": {
-    "description": "Fill the value: 'unavailable'(nothing) | 'available'(alwaysonline) | 'composing'(typing) | 'recording' | 'paused' ",
-    "required" :false,
-    "value": "unavailable"
-  },
-  "AUTO_READ_STATUS": {
-    "description": "Fill the value true if you want bot view your Statuses.",
-    "required" :false,
-    "value": "true"
-  }, 
-  "MSGS_IN_LOG": {
-    "description": "Fill the value true if you want to see Messages in Console.",
-    "required" :false,
-    "value": "false"
-  },
-  "READ_MESSAGE": {
-    "description": "Fill the value true if you want bot to read all messages.",
-    "required" :false,
-    "value": "false"
-  },
-  "DISABLE_PM": {
-    "description": "Disable bot in pm, Take it false if you wanna run bot in your pm",
-    "value": "false",
-    "required" :false
-  },
-  "ALWAYS_ONLINE": {
-    "description": "Take it 'true' if you wanna show Always Onlline",
-    "value": "false",
-    "required" :false
-  },
-  "PREFIX": {
-    "description": "Enter your desired prefix for bot.",
-    "value": "."
-  },
-  "OWNER_NUMBER": {
-    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-    "value": "94773277849"
-  },
-   "SESSION_ID": {
-    "description": "Please put your SESSION_ID here,if you don't have visit\nhttps://replit.com/@SuhailTechInfo/Secktor-Bot"
-  },
-  "OPENAI_API_KEY": {
-    "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
-    "value": "",
-    "required" :false
-  }, 
-  "REMOVE_BG_KEY": {
-    "description": "Please put your REMOVE BG KEY here.Get it from removeBg.com ",
-    "value": "",
-    "required" :false
-  },
-  "MONGODB_URI": {
-    "description": "Put your own Mongodb key. Its a secret String for Mongodb Connection.(Required)",
-    "value": "mongodb+srv://vajira:vajira@cluster0.hzwqrqq.mongodb.net/?retryWrites=true&w=majority"
-  },
-  "MODE": {
-    "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-    "value": "private"
-  },
-  "AUTO_REACTION": {
-    "description": "Available option : cmd(react only cmds) | all (all emojis) | true (facial + hearts emojies)    ",
-    "value": "false",
-    "required": false 
-  },
-  "PACK_NAME": {
-    "description": "Put Sticker Pack_Name.",
-    "value": "",
-    "required": false 
-  },
-  "PACK_AUTHER": {
-    "description": "Put Sticker Author_Name.",
-    "value": "",
-    "required": false 
-  }
-},
+    "name": "SITHU-QR",
+    "description": "I am SITHU-MD Whatsapp BOT built in NodeJs to make experience better\n\t if Any Problem : www.youtube.com/c/SITHUWA-MD",
+    "logo": "https://telegra.ph/file/f9e51e5d61e439020720a.jpg",
+    "repository": "https://github.com/Sithuwa/SITHU-QR",
+    "keywords": ["whatsappbot", "sithumd", "Sithu Md Bot", "SITHU-MD", "SithuMdWhatsaooBot", "SithuWaBot","SithuMD","Sithu Md Whatsapp Bot","multi device"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "╔════◇\n║ *🧚‍♂️ THANKS YOU CHOOSE SITHU-MD 🧚‍♂️*\n║ _You complete first step to making Bot._\n╚════════════════════════╝\n╔═════◇\n║  『•••💃 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 💃•••』\n║\n║ *YOUTUBE :* _youtube.com/SITHUWA-MD_\n║ *OWNER:* _https://wa.me/94761516805_\n║ *SUPPORT:* _https://chat.whatsapp.com/IZpUGOxDi9vEogXXyY9Mpi_\n║ *REPO* https://github.com/Sithuwa/SITHU-MD\n╚════════════════════════╝\n\n*┎┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┒*\n*┋ᴄʀᴇᴀᴛᴇ ʙʏ;-*\n*┋    ꜱɪᴛʜᴜᴍ ᴋᴀʟʜᴀʀᴀ,*\n*┋    ᴜᴅᴀʏᴀɴɢᴀ ᴘʀᴀᴅᴇᴇᴘ,*\n*┖┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┙*",
+        "required": false 
+      }
+    }   
 
-"addons": [
-		{
-			"plan": "heroku-postgresql"
-		}
-	]
- 
 }
