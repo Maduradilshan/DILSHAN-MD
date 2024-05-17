@@ -432,7 +432,7 @@ async(Suhail, citel, text) => {
 smd({pattern: "song",alias: ["music"],desc: "download audio from yt.",category: "downloader", filename: __filename,use: '<text | url.>',},
 async(Suhail, citel, text) => {
   text = text ? text : citel.quoted && citel.quoted.text ? citel.quoted.text : ""  
-  if (!text) return citel.reply(`*${prefix}play back in black*`);
+  if (!text) return citel.reply(`*${prefix}play lelena*`);
   try {
     let vid = ytIdRegex.exec(text) || [], urlYt = vid[0] || false;
     if (!urlYt) { let yts = require("secktor-pack"),search = await yts(text),anu = search.videos[0];urlYt = anu.url;  }
