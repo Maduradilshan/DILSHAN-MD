@@ -22,7 +22,7 @@ global.website = 'https://github.com/Maduradilshan/DILSHAN-MD/tree/main' ; //wa.
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/a8a67f4472fddcb7a76b5.jpg' ;
 module.exports = {
   sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  botname: process.env.BOT_NAME || 'DILSHAN-ᴍᴅ',
+  botname: process.env.BOT_NAME || 'DILSHAN-MD',
   botbgm: process.env.BOT_BGM || 'false',
   ownername:  process.env.OWNER_NAME || `It'x DILSHAN`,
   author:  process.env.PACK_AUTHER || '',
@@ -48,11 +48,11 @@ module.exports = {
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
-  caption :process.env.CAPTION || "```ᴘᴏᴡᴇʀᴇᴅ ʙʏ DILSHAN```",   //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption :process.env.CAPTION || "```POWERED BY DILSHAN```",   //*RESPECT TO • DILSHAN"),
   OPENAI_API_KEY: process.env.OPENAI_API_KEY ||'' ,
   VERSION: process.env.VERSION || 'v.1.2.2',
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : 'DILSHAN',
-  menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu : process.env.MENU || '', /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: DILSHAN-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || 'private',
   KOYEB_API : process.env.KOYEB_API || ''
 };
